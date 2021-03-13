@@ -19,4 +19,4 @@ helloJVMBuild := (helloJVM / Docker / publishLocal).value
 val helloGraalVMBuild = TaskKey[Unit]("helloGraalVMBuild")
 helloGraalVMBuild := (helloGraalVM / Docker / publishLocal).value
 
-//Gatling / test := (Gatling / test).dependsOn(helloJVMBuild, helloGraalVMBuild).value
+Gatling / test := (Gatling / test).dependsOn(helloJVMBuild, helloGraalVMBuild).value
