@@ -1,0 +1,1 @@
+val scbi = helloGraalVM /GraalVMNativeImage / containerBuildImage := Some("ghcr.io/graalvm/graalvm-ce:21.0.0")
