@@ -2,5 +2,5 @@ zio-http-perf
 -------------
 
 ```
-gatling:test
+./sbt gatling:test
 ```
